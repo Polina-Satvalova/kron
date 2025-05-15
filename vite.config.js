@@ -8,6 +8,9 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 export default defineConfig({
   base: '/kron/',
   plugins: [vue(), vueDevTools()],
+  build: {
+    outDir: './docs',
+  },
   resolve: {
     alias: {
       '@Assets': fileURLToPath(new URL('./src/assets', import.meta.url)),
