@@ -30,7 +30,7 @@ const store = useBasketStore()
         :src="baseUrl + product.img"
         class-card="card"
         class-cover="cover"
-        @on-click="store.addToBasket(product)"
+        @on-click="store.addToBasket(product, route.params.category)"
       >
         <div>
           <span class="title">{{ product.title }}</span>

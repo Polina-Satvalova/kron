@@ -8,6 +8,7 @@ import IconWave from '@/core/components/icons/IconWave.vue'
 import IconSpiralWave from '@/core/components/icons/IconSpiralWave.vue'
 import { useBasketStore } from '@/core/stores/basketStore.js'
 import db from '/db.json'
+import { Categories } from '@/modules/main/const/Categories.js'
 
 const baseUrl = window.location.origin + '/kron/'
 
@@ -47,7 +48,7 @@ const store = useBasketStore()
           <BaseCard
             class-card="card"
             :src="`${baseUrl}/bestsellers/image-${bestseller.id}.png`"
-            @onClick="store.addToBasket(bestseller)"
+            @onClick="store.addToBasket(bestseller, Categories.Boxes)"
           >
             <CatalogButton button-class="title">{{ bestseller.title }}</CatalogButton>
 

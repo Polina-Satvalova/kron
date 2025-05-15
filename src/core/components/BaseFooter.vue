@@ -7,12 +7,12 @@ import logo from '@Assets/icons/logo.svg'
     <img class="logo" :src="logo" alt="logo" />
     <div></div>
     <div class="sections">
-      <a class="link">О нас</a>
-      <a class="link">Отзывы</a>
-      <a class="link">Каталог</a>
-      <a class="link">Доставка</a>
-      <a class="link">Контакты</a>
-      <a class="link">Хит продаж</a>
+      <a class="link" href="/#aboutUs">О нас</a>
+      <a class="link" href="/#reviews">Отзывы</a>
+      <a class="link" href="/#catalog">Каталог</a>
+      <a class="link" href="/#delivery">Доставка</a>
+      <a class="link" href="/#contacts">Контакты</a>
+      <a class="link" href="/#bestsellers">Хит продаж</a>
     </div>
   </footer>
 </template>

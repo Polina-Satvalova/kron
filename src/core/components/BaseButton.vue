@@ -2,6 +2,7 @@
 import { Size } from '@/core/constants/size.js'
 import { Shape } from '@/core/constants/shape.js'
 import { useRouter } from 'vue-router'
+import { Routes } from '@/core/router/routes.js'
 
 const router = useRouter()
 const props = defineProps({
@@ -23,6 +24,7 @@ const emits = defineEmits(['click'])
 
 function onClick() {
   if (props.routeParams?.hash) {
+    router.push({ name: Routes.Home, hash: props.routeParams.hash })
     const el = document.querySelector(props.routeParams.hash)
     el.scrollIntoView({ behavior: 'smooth' })
   }

@@ -36,11 +36,11 @@ function closeSuccessModal() {
           <div class="const-information">
             <p class="order_cost">{{ product.sum }} ₽</p>
             <div class="counter">
-              <button @click="store.removeFromBasket(product)">
+              <button @click="store.removeFromBasket(product, product.category)">
                 <IconMinus />
               </button>
               <p>{{ product.count }}</p>
-              <button @click="store.addToBasket(product)">
+              <button @click="store.addToBasket(product, product.category)">
                 <IconPlus />
               </button>
             </div>
