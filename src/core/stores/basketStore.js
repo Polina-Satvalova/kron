@@ -6,7 +6,7 @@ export const useBasketStore = defineStore('counter', () => {
   const basket = ref([])
 
   onMounted(() => {
-    basket.value = JSON.parse(localStorage.getItem(Keys.Basket))
+    basket.value = JSON.parse(localStorage.getItem(Keys.Basket)) ?? []
   })
 
   function setInStorage() {
@@ -22,7 +22,6 @@ export const useBasketStore = defineStore('counter', () => {
   })
 
   function addToBasket(newItem) {
-    console.log(newItem)
     if (basket.value.some((item) => item.id === newItem.id)) {
       basket.value.find((item) => item.id === newItem.id).count++
     } else {

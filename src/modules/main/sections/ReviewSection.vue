@@ -7,7 +7,7 @@ import { useTemplateRef } from 'vue'
 import { reviews } from '@/modules/main/data/reviews.js'
 import IconStar from '@/core/components/icons/IconStar.vue'
 
-const baseUrl = window.location.origin
+const baseUrl = window.location.origin + '/kron/'
 
 const swiperEl = useTemplateRef('swiper')
 

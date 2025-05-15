@@ -13,6 +13,7 @@ const route = useRoute()
 onMounted(() => {
   data.value = db[route.params.category]
 })
+const baseUrl = window.location.origin + '/kron/'
 
 const store = useBasketStore()
 </script>
@@ -26,7 +27,7 @@ const store = useBasketStore()
       <BaseCard
         v-for="product of data"
         :key="product.id"
-        :src="product.img"
+        :src="baseUrl + product.img"
         class-card="card"
         class-cover="cover"
         @on-click="store.addToBasket(product)"

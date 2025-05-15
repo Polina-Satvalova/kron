@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import { routes } from '@/core/router/routes.js'
 
 export const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/kron/'),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (to.hash) {

@@ -5,7 +5,7 @@ import CatalogButton from '@/modules/main/components/CatalogButton.vue'
 import { Routes } from '@/core/router/routes.js'
 import { Categories } from '@/modules/main/const/Categories.js'
 
-const baseUrl = window.location.origin
+const baseUrl = window.location.origin + '/kron/'
 </script>
 
 <template>

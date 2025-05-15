@@ -9,7 +9,7 @@ import IconSpiralWave from '@/core/components/icons/IconSpiralWave.vue'
 import { useBasketStore } from '@/core/stores/basketStore.js'
 import db from '/db.json'
 
-const baseUrl = window.location.origin
+const baseUrl = window.location.origin + '/kron/'
 
 const data = ref()
 const error = ref()
