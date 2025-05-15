@@ -67,7 +67,8 @@ watchEffect(() => {
           class-names="navigation-button"
           :size="Size.Small"
           :route-params="{ hash: '#contacts' }"
-          >Конткаты
+        >
+          Контакты
         </BaseButton>
       </div>
       <div class="actions">

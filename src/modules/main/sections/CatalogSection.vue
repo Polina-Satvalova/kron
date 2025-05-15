@@ -10,7 +10,7 @@ const baseUrl = window.location.origin + '/kron/'
 
 <template>
   <section class="catalog" id="catalog">
-    <BaseTitle class-name="">Катлог</BaseTitle>
+    <BaseTitle class-name="">Каталог</BaseTitle>
     <div class="container">
       <BaseCard
         class-cover="catalog-cover"
