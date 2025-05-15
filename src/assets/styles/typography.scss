@@ -1,0 +1,75 @@
+// fonts-size for content
+:root {
+  --display-size-large: 5rem;
+  --display-size-medium: 3.6rem;
+  --display-size-small: 3.2rem;
+
+  --body-size-large: 2.4rem;
+  --body-size-medium: 2rem;
+  --body-size-small: 1.6rem;
+
+  --label-size: 1.3rem;
+}
+
+html {
+  font-size: 10px;
+}
+
+@mixin headline-large {
+  font-family: Playfair Display, sans-serif;
+  font-weight: 700;
+  font-size: var(--display-size-large);
+  line-height: 100%;
+}
+
+@mixin headline-medium {
+  font-family: Montserrat Alternates, sans-serif;
+  font-weight: 600;
+  font-size: var(--display-size-medium);
+  line-height: 120%;
+}
+
+@mixin body-medium {
+  font-family: Montserrat Alternates, sans-serif;
+  font-weight: 400;
+  font-size: var(--body-size-medium);
+  line-height: 120%;
+}
+
+@mixin body-small {
+  font-family: Montserrat Alternates, sans-serif;
+  font-weight: 400;
+  font-size: var(--body-size-small);
+  line-height: 120%;
+}
+
+@mixin label {
+
+}
+
+@mixin sale {
+  font-family: Montserrat Alternates, sans-serif;
+  font-weight: 500;
+  font-size: var(--body-size-large);
+  line-height: 100%;
+  vertical-align: middle;
+}
+
+@mixin link {
+  font-family: Montserrat Alternates, sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 100%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0;
+  color: var(--blue);
+}
+
+@mixin product {
+  font-family: Montserrat Alternates, sans-serif;
+  font-weight: 400;
+  font-size: var(--body-size-large);
+  line-height: 100%;
+}
+

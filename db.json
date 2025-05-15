@@ -1,0 +1,249 @@
+{
+  "bestsellers": [
+    {
+      "id": 1,
+      "title": "Весенний бокс",
+      "cost": 3199,
+      "img": "http://localhost:5173/bestsellers/image-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Летний бокс",
+      "cost": 3199,
+      "img": "http://localhost:5173/bestsellers/image-2.png"
+    },
+    {
+      "id": 3,
+      "title": "Микс-бокс",
+      "cost": 3199,
+      "img": "http://localhost:5173/bestsellers/image-3.png"
+    },
+    {
+      "id": 4,
+      "title": "Осенний бокс",
+      "cost": 3199,
+      "img": "http://localhost:5173/bestsellers/image-4.png"
+    },
+    {
+      "id": 5,
+      "title": "Зимний бокс",
+      "cost": 3199,
+      "img": "http://localhost:5173/bestsellers/image-5.png"
+    }
+  ],
+  "boxes": [
+    {
+      "id": 1,
+      "title": "Весенний бокс",
+      "cost": 3199,
+      "oldCost": 5000,
+      "img": "http://localhost:5173/bestsellers/image-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Летний бокс",
+      "cost": 3199,
+      "oldCost": 5000,
+      "img": "http://localhost:5173/bestsellers/image-2.png"
+    },
+    {
+      "id": 3,
+      "title": "Микс-бокс",
+      "cost": 3199,
+      "oldCost": 5000,
+      "img": "http://localhost:5173/bestsellers/image-3.png"
+    },
+    {
+      "id": 4,
+      "title": "Осенний бокс",
+      "cost": 3199,
+      "oldCost": 5000,
+      "img": "http://localhost:5173/bestsellers/image-4.png"
+    },
+    {
+      "id": 5,
+      "title": "Зимний бокс",
+      "cost": 3199,
+      "oldCost": 5000,
+      "img": "http://localhost:5173/bestsellers/image-5.png"
+    }
+  ],
+  "posters": [
+    {
+      "id": 1,
+      "title": "Постер 50x70",
+      "cost": 499,
+      "img": "http://localhost:5173/posters/image-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Постер 40x50",
+      "cost": 399,
+      "img": "http://localhost:5173/posters/image-2.png"
+    },
+    {
+      "id": 3,
+      "title": "Постер 30x40",
+      "cost": 299,
+      "img": "http://localhost:5173/posters/image-3.png"
+    }
+  ],
+  "mugs": [
+    {
+      "id": 1,
+      "title": "Кружка Синия",
+      "cost": 599,
+      "img": "http://localhost:5173/mugs/image-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Кружка БежС.",
+      "cost": 599,
+      "img": "http://localhost:5173/mugs/image-2.png"
+    },
+    {
+      "id": 3,
+      "title": "Кружка Карал",
+      "cost": 599,
+      "img": "http://localhost:5173/mugs/image-3.png"
+    },
+    {
+      "id": 4,
+      "title": "Кружка БежК.",
+      "cost": 599,
+      "img": "http://localhost:5173/mugs/image-4.png"
+    },
+    {
+      "id": 5,
+      "title": "Кружка КРОН С.",
+      "cost": 499,
+      "img": "http://localhost:5173/mugs/image-5.png"
+    },
+    {
+      "id": 6,
+      "title": "Кружка КРОН Б.",
+      "cost": 499,
+      "img": "http://localhost:5173/mugs/image-6.png"
+    },
+    {
+      "id": 7,
+      "title": "Кружка КРОН К.",
+      "cost": 499,
+      "img": "http://localhost:5173/mugs/image-7.png"
+    }
+  ],
+  "merch": [
+    {
+      "id": 1,
+      "title": "Худи Рыбки С.",
+      "cost": 3499,
+      "img": "http://localhost:5173/merch/image-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Худи Рыбки Б.",
+      "cost": 3499,
+      "img": "http://localhost:5173/merch/image-2.png"
+    },
+    {
+      "id": 3,
+      "title": "Худи Волны",
+      "cost": 3499,
+      "img": "http://localhost:5173/merch/image-3.png"
+    },
+    {
+      "id": 4,
+      "title": "Худи Волны С.",
+      "cost": 3499,
+      "img": "http://localhost:5173/merch/image-4.png"
+    },
+    {
+      "id": 5,
+      "title": "Футболка С.",
+      "cost": 2499,
+      "img": "http://localhost:5173/merch/image-5.png"
+    },
+    {
+      "id": 6,
+      "title": "Футболка К.",
+      "cost": 2499,
+      "img": "http://localhost:5173/merch/image-6.png"
+    },
+    {
+      "id": 7,
+      "title": "Кепка Рыбка",
+      "cost": 3499,
+      "img": "http://localhost:5173/merch/image-7.png"
+    },
+    {
+      "id": 8,
+      "title": "Кепка город",
+      "cost": 3499,
+      "img": "http://localhost:5173/merch/image-8.png"
+    }
+  ],
+  "chancellery": [
+    {
+      "id": 1,
+      "title": "Блокнот Рыбки",
+      "cost": 399,
+      "img": "http://localhost:5173/chancellery/image-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Блокнот Волны К.",
+      "cost": 399,
+      "img": "http://localhost:5173/chancellery/image-2.png"
+    },
+    {
+      "id": 3,
+      "title": "Блокнот Волны",
+      "cost": 399,
+      "img": "http://localhost:5173/chancellery/image-3.png"
+    },
+    {
+      "id": 4,
+      "title": "Блокнот Волны С.",
+      "cost": 399,
+      "img": "http://localhost:5173/chancellery/image-4.png"
+    },
+    {
+      "id": 5,
+      "title": "Пакет 25x35 Б.",
+      "cost": 199,
+      "img": "http://localhost:5173/chancellery/image-5.png"
+    },
+    {
+      "id": 6,
+      "title": "Пакет 25x35 С.",
+      "cost": 199,
+      "img": "http://localhost:5173/chancellery/image-6.png"
+    }
+  ],
+  "accessories": [
+    {
+      "id": 1,
+      "title": "3Д стикеры(1)",
+      "cost": 199,
+      "img": "http://localhost:5173/accessories/image-1.png"
+    },
+    {
+      "id": 2,
+      "title": "3Д стикеры(2)",
+      "cost": 199,
+      "img": "http://localhost:5173/accessories/image-2.png"
+    },
+    {
+      "id": 3,
+      "title": "3Д стикеры(3)",
+      "cost": 199,
+      "img": "http://localhost:5173/accessories/image-3.png"
+    },
+    {
+      "id": 4,
+      "title": "3Д стикеры(4)",
+      "cost": 199,
+      "img": "http://localhost:5173/accessories/image-4.png"
+    }
+  ]
+}

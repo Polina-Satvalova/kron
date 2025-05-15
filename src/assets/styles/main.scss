@@ -1,0 +1,16 @@
+
+:root {
+  --layout-padding: 4.5rem;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+html, body, #app {
+  scroll-behavior: smooth;
+  position: relative;
+  overflow-x: hidden;
+  height: 100%;
+}
+
